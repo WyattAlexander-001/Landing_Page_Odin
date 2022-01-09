@@ -8,75 +8,77 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--I broke down the site into head/container/footer-->
-      <div class="header">
-        <ul class="left-links">
-          <li><a href="google.com">Logo</a></li>
-        </ul>
-        <ul class="right-links">
-          <li><a href="google.com">Profile</a></li>
-          <li><a href="google.com">Settings</a></li>
-          <li><a href="google.com">Settings</a></li>
-        </ul>
-      </div>
-      <!--Sub divide container into multiple flexboxes-->
-    
-      <div class="container">
-      <!--Left/Right Top box-->    
-        <div class=''>
-            <h1>Alexander Winery</h1>
-            <p>Sign up for new developments</p>
-            <button>Sign Up</button>
-            <img src='./images/wine.jpg'>
-        </div>
-      <!--List of 4 images with text under-->
-        <div>
-            <h1>Our Best Sellers</h1>
-            <div class="info">
-                <img src="./images/red.jpg" alt="">
-                <div class="text">Classic Dry Red.</div>
-              </div>
-              <div class="info">
-                <img src="./images/green.jpg" alt="">
-                <div class="text">Sweet Green</div>
-              </div>
-              <div class="info">
-                <img src="./images/rose.jpg" alt="">
-                <div class="text">Rose wine.</div>
-              </div>
-              <div class="info">
-                <img src="./images/mango.jpg" alt="">
-                <div class="text">Newest flavor! Mango!</div>
-              </div>
-        </div>
-      <!--Quote Section-->
-        <div>
-            <p>"Best in wine in the upstate NY area, I buy it so regularly that my friends and family think I'm an alcoholic. I think they may be right!"</p>
-            <p>-John Doe</p>
-        </div>
-      <!--Call to action-->
-        <div class=''>
-            <div>
-                <h2>Call to ACTION</h2>
-                <p>Sign up now and get 5% off your next order</p>                
+    <!--Container to wrap entire body-->
+    <div class="container">
+        <!--Nav html is just a div with a nicer name-->    
+        <nav class="navbar">
+            <div class="header-logo">
+                <img src="images/logo.jpeg">
             </div>
-            <div>
-                <button>Sign Up</button>
+
+            <div class="header-link">
+                <a href="#">About</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact</a>                    
+            </div>
+        </nav>
+        
+        <div class="hero">
+            <div class="hero-1 hero-cta">
+                <h1>Alexander Winery</h1>
+                <p>We've been serving quality wine for over 20 years in the Upstate NY area.
+                </p>
+                <button type="button">Sign Up</button>
+            </div>
+            <div class="hero-1 hero-image">
+                <img src="images/wine.jpg" alt="">
             </div>
         </div>
-      </div>
 
+        <div class="content">
+            <h2>Our Wine Selection:</h2>
+            <div class="content-info">
+                <div>
+                    <img src="images/red.jpg">
 
+                    <p>RED</p>
+                </div>
+                <div>
+                    <img src="images/green.jpg">
 
-      <div class="footer">
-        <ul class="left-links">
-          <li><a href="google.com">Advertising</a></li>
-          <li><a href="google.com">Business</a></li>
-        </ul>
-        <ul class="right-links">
-          <li><a href="google.com">Privacy</a></li>
-          <li><a href="google.com">Terms</a></li>
-        </ul>
-      </div>
+                    <p>Green</p>
+                </div>
+                <div>
+                    <img src="images/rose.jpg">
+
+                    <p> Rose</p>
+                </div>
+                <div>
+                    <img src="images/mango.jpg">
+
+                    <p>Mango</p>
+                </div>
+            </div>
+        </div>
+        <div class="quote">
+            <p>"My friends and family love Alexander Winery, it's our go to selection for all events."
+            </p>
+            <b>
+                -- Wyatt
+            </b>
+        </div>
+        <div class="sign-up">
+            <div class="sign-item signs-text">
+                <h3>Get 5% Off Your Next Order</h3>
+                <p>Sign up today and see how you can receive 5% off your next order!</p>
+            </div>
+            <div class="sign-item signs-button">
+                <button type="button">Sign Up</button>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright © The Odin Project 2021</p>
+        </div>
+    </div>
 </body>
 </html>
