@@ -140,9 +140,9 @@ h1 {
 
 /* Sign Up Part */
 .sign-up {
-    background-color: #3882F6 ;
-    margin: 200px;
-    padding: 10px 80px;
+    background-color: purple ;
+    margin: 50px 200px;
+    padding: 10px;
     display: flex;
     align-items: center;
     border-radius: 33px;
@@ -175,7 +175,7 @@ h3 {
     font-family: 'Roboto', arial;
     border-color: #fff;
     border-radius: 8px;
-    background-color: #3882F6;
+    background-color: purple;
     padding: 5px 25px;
     font-size: 15px;
 }
@@ -183,8 +183,8 @@ h3 {
 /* Footer */
 
 .footer {
-    background-color: #4400c2;
-    color: #fff;
+    background-color: maroon;
+    color: white;
     font-family: 'Roboto', arial;
     display: flex;
     justify-content:flex-end ;
